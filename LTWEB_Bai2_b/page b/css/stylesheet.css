@@ -1,0 +1,68 @@
+.container.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eight.columns.alpha.mobile_center.logo {
+    margin-left: 250px;
+}
+
+.eight.columns.omega.right_text.mobile_center.button {
+    margin-right: 200px;
+
+}
+
+.bottom-icons > li {
+    display: inline;
+    float: right;
+}
+
+.nav.navbar-nav.navbar-left > li {
+    display: inline;
+}
+
+#section_header_1 {
+    background-color: antiquewhite;
+    height: 100px;
+    margin-top: -20px;
+}
+
+#navbar-collapse-02 {
+    padding: 20px;
+}
+
+.propClone {
+    font-family: Arial;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+.active propClone {
+    font-family: Arial;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+.top_padding.img {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.container.ticket{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+
+}
+#section_party_3{
+    background-color:cadetblue;
+}
+#section_party_4{
+    background-color:cadetblue;
+}
+.contact_st{
+    border:solid;
+}
