@@ -1,0 +1,41 @@
+.sixteen.columns.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.title_stay {
+    float: left;
+}
+
+.big_padding.dark.pix_builder_bg.background_body {
+    background-color: black;
+    color: white;
+}
+
+.sixteen.columns.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eight.columns.omega.text {
+    text-align: left;
+}
+.pixfort_normal_1#section_normal_6{
+    background-color:aliceblue;
+}
+.rate{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.body{
+    font-family: Arial;
+    font-size:16px;
+}
+.pixfort_st{
+    margin-left:300px;
+    color: green;
+}
