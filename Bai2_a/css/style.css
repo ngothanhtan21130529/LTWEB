@@ -1,0 +1,81 @@
+body {
+    width: 1890px;
+    height: 1173px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    margin: auto;
+}
+
+#page {
+    width: 1170px;
+    height: 1711px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_normal_1 {
+    width: 1179px;
+    height: 82px;
+}
+#section_normal_1 .container .one-third.column.alpha{
+    float:left;
+}
+#section_normal_1 .container .two-thirds.column.omega{
+    float:right;
+}
+.htext_style{
+    float:left;
+    margin-right: 10px;
+    color:grey;
+    margin-top:10px;
+}
+#section_normal_4_2{
+    width: 1180px;
+    height:671px;
+    background-color:hsl(0deg 0% 20%);
+}
+#section_normal_4_2 .container .sixteen.columns{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+button{
+    background-color: hsl(192.83deg 80.26% 54.31%);
+    font-size:16px;
+    text-decoration: none;
+}
+.bold_text.big_text.blue_text.editContent{
+    color:hsl(192.83deg 70.04% 51.57%);
+}
+.big_title.bold_text.editContent{
+    color:hsl(0deg 0% 100%);
+}
+.normal_text.light_gray.editContent{
+    color:hsl(0deg 0% 100%);
+}
+#section_normal_6{
+    width:1209px;
+    height:396px;
+    background-color: hsl(0deg 0% 93.33%);
+}
+#section_normal_6 .container #h3_h5{
+   margin-left:500px;
+}
+#section_normal_6 .container .box_1.pix_builder_bg{
+    display: flex;
+    flex-direction: row;
+}
+#section_normal_6 .container .box_2.pix_builder_bg{
+    display:flex;
+    flex-direction: row;
+}
+#section_normal_6 .container #two_content{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+#section_agency_5{
+    background-color: hsl(0deg 0% 100%);
+    width: 1176px;
+    height:565px;
+}
