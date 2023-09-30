@@ -1,0 +1,71 @@
+#page {
+    width: 1176px;
+    height: 1802px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#section_header_2_dark {
+    width: 1172px;
+    height: 95px;
+    background-color: hsl(0deg 0% 20%);
+
+}
+#section_header_2_dark .containerss .navbar-header{
+    float:left;
+}
+#section_header_2_dark .containerss .collapse.navbar-collapse{
+    float:right;
+    margin-top:10px;
+}
+#section_header_2_dark .containerss .collapse.navbar-collapse .nav.navbar-nav.navbar-right{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    list-style-type: none;
+
+}
+#section_pix_4{
+    width:1178px;
+    height:886px;
+}
+#section_pix_4 .pix_video_div.section_video{
+    width:1173px;
+    height:870px;
+}
+#section_pix_4 .section_wrapper.clearfix{
+    position:relative;
+    bottom:600px;
+    margin-left: 150px;
+    margin-right:100px;
+}
+#section_university_5{
+    width: 1205px;
+    height:732px;
+    background-color: hsl(0deg 0% 100%);
+}
+#section_university_5 .sixteen.columns{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+
+}
+#section_university_5 .container{
+    margin-top:-200px;
+}
+#section_ecourse_7{
+    width:1166px;
+    height:91px;
+}
+#section_ecourse_7 .bottom-icons{
+    display:flex;
+    gap:10px;
+    list-style-type: none;
+}
+#section_ecourse_7 .container .sixteen.columns.bg_foot{
+    display:flex;
+    justify-content: space-between;
+}
+#section_ecourse_7 .container .nine.columns.omega .soc_icons.pix_builder_bg{
+    float:left;
+}
