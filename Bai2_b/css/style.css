@@ -184,3 +184,19 @@
     display:flex;
     flex-direction:row-reverse;
 }
+.fas.fa-chevron-left.carousel-arrow.carousel-prev{
+    position:relative;
+    z-index: 7;
+    bottom:1300px;
+    font-size: 50px;
+    color:hsl(33.6deg 10.2% 51.96%);
+
+}
+.carousel-next{
+   position:relative;
+    bottom:1290px;
+    z-index: 9;
+    font-size:50px;
+    left:1100px;
+    color:hsl(33.6deg 10.2% 51.96%);
+}
