@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+
+}
+
+body {
+    background-image: url('../img/hinh-nen-may-tinh-dep-ledmofan-full-hd-2.jpg');
+    background-repeat: no-repeat;
+
+}
+
+#container {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    background-color: hsl(0deg 0% 100%);
+    border-radius:10px;
+    height:500px;
+}
+
+#container h1 {
+    margin-left: 250px;
+}
+
+#container #signin {
+    margin-left: 250px;
+}
+
+#container #orloginwith {
+    margin-left: 230px;
+    margin-top:20px;
+}
+#container #signup{
+    margin-left:230px;
+    margin-top:40px;
+}
+#container input{
+    margin-left:210px;
+}
