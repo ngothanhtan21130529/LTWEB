@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4_7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game click số</title>
+    <style>
+        button {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="buttons"></div>
+
+<script>
+    const numButtons = 64;
+
+    let buttonsHTML = '';
+    for (let i = 1; i <= numButtons; i++) {
+        buttonsHTML += `<button>${i}</button>`;
+    }
+
+    document.getElementById('buttons').innerHTML = buttonsHTML;
+
+    let clicked = 0;
+
+    document.querySelectorAll('button').forEach(button => {
+        button.onclick = () => {
+            const number = parseInt(button.textContent);
+
+            if (number === clicked + 1) {
+                clicked++;
+                button.style.display = 'none';
+            } else {
+                alert('Sai thứ tự rồi!');
+            }
+        }
+    });
+</script>
+</body>
+</html>

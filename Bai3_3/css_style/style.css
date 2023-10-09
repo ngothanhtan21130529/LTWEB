@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+#main {
+    margin-left: 500px;
+    margin-top: 50px;
+    row-gap: 10px;
+    border: double;
+    border-width: 10px;
+    width: 756px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+h2 {
+    margin-left: 350px;
+
+}
+
+#name {
+    border-radius: 10px;
+    width: 740px;
+    height: 100px;
+    margin-left:10px;
+}
+
+#email {
+    border-radius: 10px;
+    width: 306px;
+    height: 67px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+#number {
+    border-radius: 10px;
+    width: 309px;
+    height: 63px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+#service {
+    border-radius: 10px;
+    width: 642px;
+    height: 70px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+#text {
+    border-radius: 10px;
+    height: 50px;
+    width: 639px;
+    height: 127px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+#sub_mit {
+    width: 630px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
